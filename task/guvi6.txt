@@ -1,0 +1,61 @@
+def macro():
+  h=distance*10
+  print (h)
+def mini():
+  i=distance*20
+  print (i)
+def prime():
+  j=distance*40
+  print(j)
+source=int(input("enter the source"))
+destination=int(input("enter the deastination"))
+distance= destination-source
+print (distance)
+print ("macro(10 perkm) \n mini(20 perkm) \n prime(100 perkm) \n")
+e="macro"
+f="mini"
+g="prime"
+d=input("display the cost")
+
+
+while(d==e):
+  macro=distance*10
+  print (macro)
+  break
+while(d==f):
+  mini=distance*20
+  print (mini)
+  break
+while(d==g):
+  prime=distance*100
+  print (prime)
+  break
+l=input("do you want to continue")
+k="yes"
+while(l==k):
+  source=int(input("enter the source"))
+  destination=int(input("enter the deastination"))
+  distance= destination-source
+  print (distance)
+  print ("macro(10 perkm) \n mini(20 perkm) \n prime(100 perkm) \n")
+  e="macro"
+  f="mini"
+  g="prime"
+  d =input("display the cost")
+
+
+while(d==e):
+  macro=distance*10
+  print (macro)
+  break
+while(d==f):
+  mini=distance*20
+  print (mini)
+  break
+while(d==g):
+  prime=distance*100
+  print (prime)
+  break
+  l=input("do you want to continue")
+  k="yes"
+while(l==k):
